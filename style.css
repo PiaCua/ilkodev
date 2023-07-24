@@ -1,0 +1,353 @@
+@font-face {
+  font-family: yazılar;
+  src: url(./font/Inter-Black.ttf);
+}
+@font-face {
+  font-family: üstyazı;
+  src: url(./font/Inter-Regular.ttf);
+}
+@font-face {
+  font-family: yazı;
+  src: url(./font/Inter-Thin-BETA.ttf);
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #fcfcfc;
+}
+
+.header {
+  background-color: white;
+  display: flex;
+  padding-top: 20.08px;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.üst-yazı > a {
+  flex-direction: row;
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  align-items: center;
+  padding-top: 28.39px;
+  font-family: üstyazı;
+  font-size: 15px !important;
+}
+
+.sağ-üst > img {
+  margin-left: 35px;
+  align-items: center;
+}
+
+.ortaresim > img {
+  display: flex;
+  position: relative;
+  /* padding-left: 700px; 
+    width: 0vw;}  */
+}
+
+.ortaresim > h1 {
+  text-align: left;
+  color: #010101;
+  font-family: üstyazı;
+  padding-left: 50px;
+  font-size: 70px;
+}
+.ortaresim > h2 {
+  text-align: left;
+  color: #010101;
+  font-family: üstyazı;
+  padding-left: 60px;
+  font-size: 70px;
+}
+.ortaresim > h3 {
+  text-align: left;
+  color: #010101;
+  font-family: yazı;
+  padding-left: 60px;
+  font-size: 20px;
+}
+
+
+
+button {
+  appearance: none;
+  background-color: transparent;
+  border: 0.125em solid #1a1a1a;
+  border-radius: 0.9375em;
+  box-sizing: border-box;
+  color: #3b3b3b;
+  cursor: pointer;
+  display: inline-block;
+  font-family: Roobert, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica,
+    Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-size: 16px;
+  font-weight: 600;
+  line-height: normal;
+  margin: 0;
+  min-height: 3.75em;
+  min-width: 0;
+  outline: none;
+  padding: 1em 2.3em;
+  text-align: center;
+  text-decoration: none;
+  transition: all 300ms cubic-bezier(0.23, 1, 0.32, 1);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  will-change: transform;
+}
+
+button:disabled {
+  pointer-events: none;
+}
+
+button:hover {
+  color: #fff;
+  background-color: #1a1a1a;
+  box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+  transform: translateY(-2px);
+}
+
+button:active {
+  box-shadow: none;
+  transform: translateY(0);
+}
+
+/* RESPONSİVE */
+
+@media only screen and (max-width: 600px) {
+  .üst-yazı > a {
+    margin-left: 0.1vw !important;
+  }
+
+  .buton-şekil {
+    position: absolute;
+    left: 9.5% !important;
+    padding-top: 20%;
+    width: 500px;
+  }
+  .ortaresim > h3 {
+    position: absolute;
+    text-align: left;
+    color: #010101;
+    font-family: yazı;
+    padding-left: 55px !important;
+    padding-top: 45vw;
+    font-size: 3vw;
+  }
+  .ortaresim > h2 {
+    position: absolute;
+    text-align: left;
+    color: #010101;
+    font-family: üstyazı;
+    padding-left: 55px !important;
+    padding-top: 35vw;
+    font-size: 3vw;
+  }
+  .ortaresim > h1 {
+    position: absolute;
+    text-align: left;
+    color: #010101;
+    font-family: üstyazı;
+    padding-left: 40px;
+    padding-top: 20px;
+    font-size: 5vw;
+  }
+  .ortaresim > img {
+    width: 84vw;
+    padding-left: 150px;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  .üst-yazı > a {
+    margin-left: 3vw;
+  }
+}
+.buton-şekil {
+  position: absolute;
+  left: 8.5%;
+  padding-top: 20%;
+  white-space: nowrap;
+}
+
+.ortaresim > h3 {
+  position: absolute;
+  text-align: left;
+  color: #010101;
+  font-family: yazı;
+  padding-left: 55px;
+  padding-top: 40vw;
+  font-size: 3vw;
+}
+.ortaresim > h2 {
+  /* background-color: #1a1a1a; */
+  position: absolute;
+  text-align: left;
+  color: #010101;
+  font-family: üstyazı;
+  padding-left: 55px;
+  padding-top: 30vw;
+  font-size: 3vw;
+}
+
+.ortaresim > h1 {
+  position: absolute;
+  text-align: left;
+  color: #010101;
+  font-family: üstyazı;
+  padding-left: 50px;
+  padding-top: 20px;
+  font-size: 5vw;
+}
+.ortaresim > img {
+  width: 84vw;
+  padding-left: 200px;
+}
+
+@media only screen and (min-width: 768px) {
+  .üst-yazı > a {
+    margin-left: 7vw;
+  }
+  .buton-şekil {
+    position: absolute;
+    left: 7%;
+    padding-top: 20%;
+    white-space: nowrap;
+  }
+
+  .ortaresim > h3 {
+    position: absolute;
+    text-align: left;
+    color: #010101;
+    font-family: yazı;
+    padding-left: 55px;
+    padding-top: 35vw;
+    font-size: 3vw;
+  }
+  .ortaresim > h2 {
+    position: absolute;
+    text-align: left;
+    color: #010101;
+    font-family: üstyazı;
+    padding-left: 55px;
+    padding-top: 27vw;
+    font-size: 3vw;
+  }
+  .ortaresim > h1 {
+    position: absolute;
+    text-align: left;
+    color: #010101;
+    font-family: üstyazı;
+    padding-left: 50px;
+    padding-top: 20px;
+    font-size: 5vw;
+  }
+  .ortaresim > img {
+    width: 84vw;
+    padding-left: 200px;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .üst-yazı > a {
+    margin-left: 10vw;
+  }
+
+  .buton-şekil {
+    position: absolute;
+    left: 55px;
+    padding-top: 20%;
+  }
+
+  .ortaresim > h3 {
+    position: absolute;
+    text-align: left;
+    color: #010101;
+    font-family: yazı;
+    padding-left: 55px;
+    padding-top: 35vw;
+    font-size: 3vw;
+  }
+  .ortaresim > h2 {
+    position: absolute;
+    text-align: left;
+    color: #010101;
+    font-family: üstyazı;
+    padding-left: 55px;
+    padding-top: 25vw;
+    font-size: 3vw;
+  }
+  .ortaresim > h1 {
+    position: absolute;
+    text-align: left;
+    color: #010101;
+    font-family: üstyazı;
+    padding-left: 50px;
+    padding-top: 20px;
+    font-size: 5vw;
+  }
+  .ortaresim > img {
+    width: 84vw;
+    padding-left: 220px;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .mainpng2 > img {
+    position: absolute;
+    margin-left: 40vw;
+    margin-top: 45vw !important;
+    height: 40px;
+  }
+
+  .mainpng1 > img{
+    position: absolute;
+    margin-left: 65px;
+    margin-top: 45vw;
+    height: 40px;
+  }
+  .üst-yazı > a {
+    margin-left: 10vw;
+  }
+
+  .buton-şekil {
+    position: absolute;
+    left: 55px;
+    padding-top: 20%;
+  }
+
+  .ortaresim > h3 {
+    position: absolute;
+    text-align: left;
+    color: #010101;
+    font-family: yazı;
+    padding-left: 60px;
+    padding-top: 35vw;
+    font-size: 3vw;
+  }
+  .ortaresim > h2 {
+    text-align: left;
+    color: #010101;
+    font-family: üstyazı;
+    padding-left: 60px;
+    padding-top: 25vw;
+    font-size: 3vw;
+  }
+  .ortaresim > h1 {
+    position: absolute;
+    text-align: left;
+    color: #010101;
+    font-family: üstyazı;
+    padding-left: 50px;
+    padding-top: 20px;
+    font-size: 5vw;
+    /* text-shadow: 2px 2px 8px black ; */
+  }
+  .ortaresim > img {
+    width: 84vw;
+    padding-left: 250px;
+  }
+}
