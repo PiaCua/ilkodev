@@ -26,7 +26,6 @@ body {
 }
 
 .üst-yazı > a {
-  flex-direction: row;
   text-decoration: none;
   color: rgb(0, 0, 0);
   align-items: center;
@@ -39,6 +38,11 @@ body {
   margin-left: 35px;
   align-items: center;
 }
+/* .sağ-alt > img{
+  margin-left: 10vw !important;
+  align-items: center;
+  
+} */
 
 .ortaresim > img {
   display: flex;
@@ -434,10 +438,10 @@ button:active {
 }
 
 @media only screen and (min-width: 1200px) {
-  .arrow>img{
+  .arrow > img{
     position: absolute;
-    margin-top: 62.4vw;
-    margin-left: 65vw;
+    margin-top: 62.3vw;
+    margin-left: 67vw;
     height: 30px;
   }
   .learn{
@@ -486,6 +490,7 @@ button:active {
   .üst-yazı > a {
     margin-left: 10vw;
   }
+  
 
   .buton-şekil {
     position: absolute;
@@ -518,11 +523,37 @@ button:active {
     padding-left: 50px;
     padding-top: 20px;
     font-size: 5vw;
-    /* text-shadow: 2px 2px 8px black ; */
   }
   .ortaresim > img {
     width: 84vw;
     padding-left: 250px;
   }
+  .footer{
+    background-color: rgb(88, 7, 194);
+    margin-top: 70vw;
+    margin-left: 4vw;
+  display: flex;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  align-items: center;
+  justify-content: space-around;
+  }
+  .logoalt>img{
+    margin-right: 15vw;
+  }
+  .alt-yazı>a{
+    margin-left: 1vw;
+    text-decoration: none;
+  color: rgb(0, 0, 0);
+  align-items: center;
+  font-family: üstyazı;
+  font-size: 15px;
+  /* margin-right: 10vw */
 }
 
+
+  .sağ-alt > img{
+    margin-left: 3vw;
+  align-items: center;
+  }
+}
