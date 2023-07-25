@@ -18,11 +18,19 @@ body {
 }
 
 .header {
-  background-color: white;
   display: flex;
   padding-top: 20.08px;
+  padding-bottom: 20.08px;
   align-items: center;
   justify-content: space-around;
+}
+.footer{
+  margin-top: 70vw;
+display: flex;
+padding-top: 30px;
+padding-bottom: 30px;
+align-items: center;
+justify-content: space-around;
 }
 
 .üst-yazı > a {
@@ -38,17 +46,38 @@ body {
   margin-left: 35px;
   align-items: center;
 }
-/* .sağ-alt > img{
-  margin-left: 10vw !important;
-  align-items: center;
+.logoalt>img{
+  margin-left: -100px;
   
-} */
+}
+.alt-yazı{
+  display: flex;
+  padding-left: 1vw;
+
+}
+.alt-yazı>a{
+  margin-left: 5vw;
+  text-decoration: none;
+color: rgb(0, 0, 0);
+align-items: center;
+font-family: üstyazı;
+font-size: 15px;
+}
+
+.sağ-alt{
+  display: flex;
+  width: 9vw;
+
+}
+.sağ-alt > img{
+  margin-left: 3vw;
+align-items: center;
+}
+
 
 .ortaresim > img {
   display: flex;
   position: relative;
-  /* padding-left: 700px; 
-    width: 0vw;}  */
 }
 
 .ortaresim > h1 {
@@ -491,13 +520,11 @@ button:active {
     margin-left: 10vw;
   }
   
-
   .buton-şekil {
     position: absolute;
     left: 55px;
     padding-top: 18%;
   }
-
   .ortaresim > h3 {
     position: absolute;
     text-align: left;
@@ -525,35 +552,6 @@ button:active {
     font-size: 5vw;
   }
   .ortaresim > img {
-    width: 84vw;
-    padding-left: 250px;
-  }
-  .footer{
-    background-color: rgb(88, 7, 194);
-    margin-top: 70vw;
-    margin-left: 4vw;
-  display: flex;
-  padding-top: 50px;
-  padding-bottom: 50px;
-  align-items: center;
-  justify-content: space-around;
-  }
-  .logoalt>img{
-    margin-right: 15vw;
-  }
-  .alt-yazı>a{
-    margin-left: 1vw;
-    text-decoration: none;
-  color: rgb(0, 0, 0);
-  align-items: center;
-  font-family: üstyazı;
-  font-size: 15px;
-  /* margin-right: 10vw */
-}
-
-
-  .sağ-alt > img{
-    margin-left: 3vw;
-  align-items: center;
+    width: 81.5vw;
   }
 }
