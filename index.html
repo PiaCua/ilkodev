@@ -9,14 +9,14 @@
 
     <div class="header">
       <div><img src="./img/header/logo/Planty's Logo.png"></div>
-      <div class="üst-yazı">
+      <div class="ust-yazı">
         <a href="#">Plants</a>
         <a href="#">For offices</a>
         <a href="#">Plants care</a>
         <a href="#">About</a>
       </div>
       
-      <div class="sağ-üst">
+      <div class="sag-ust">
         <img src="./img/header/sağ üst/Extra Icons.png">
         <img src="./img/header/sağ üst/Component 4.png">
         <img src="./img/header/sağ üst/Component 2.png"></div>
@@ -30,7 +30,11 @@
         </h2>
         <h3 style="position: absolute">Wer've been mentioned in the press</h3>
       </div>
-      <div class="buton-şekil">
+      <!-- 
+        class'ları isimlendirirken türkçe karakter yerine ingilizce 
+        karakterleri tercih edelim buton-şekil yerine buton-sekil gibi
+      -->
+      <div class="buton-sekil">
         <button style="position: absolute">Shop Now</button>
       </div>
       <div class="mainpng1"><img src="./img/orta ksım/Bloomberg.png"></div>
@@ -46,24 +50,32 @@
           <h2> Learn how we take care of your plant <br>
           every stage of its journey from our<br>
           greenhouse to your home.</h2>
-        <div class="arrow"> <img src="./img/orta ksım/Frame 26.png" </div>
+          <!-- buradaki img etiketini kapatmayı unutmuşsun -->
+        <div class="arrow"> <img src="./img/orta ksım/Frame 26.png" /> </div>
         <div class="learn">Learn More</div>
         </div>
       </div>
     </div>
   </div>
     <div class="footer">
-      <div class="logoalt"><img src="./img/footer/logo/Planty's Logo.png"></div>
+      <div class="logoalt"><img src="./img/footer/logo/Planty's Logo.png" /></div>
       <div class="alt-yazı">
         <a href="#">Help</a>
         <a href="#">Contact Us</a>
         <a href="#">Privacy & Terms</a>
       </div>
       
-      <div class="sağ-alt">
-        <img src="./img/footer/Group 4 kopya.png">
-        <img src="./img/footer/Group 42 kopya.png">
-        <img src="./img/footer/Group 43 kopya.png"></div>
+      <div class="sag-alt">
+        <!-- 
+
+          img etiketi gibi tek tag kullandığımız etiketlerde 
+          <img src="...."> şeklinde açık bırakmak yerine
+          <img src="...." /> şeklinde kapatma işareti ile birlikte kullanalım
+
+        -->
+        <img src="./img/footer/Group 4 kopya.png" />
+        <img src="./img/footer/Group 42 kopya.png" />
+        <img src="./img/footer/Group 43 kopya.png" /> </div>
     </div>
   </body>
 </html>

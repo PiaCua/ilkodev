@@ -33,7 +33,7 @@ align-items: center;
 justify-content: space-around;
 }
 
-.üst-yazı > a {
+.ust-yazı > a {
   text-decoration: none;
   color: rgb(0, 0, 0);
   align-items: center;
@@ -42,7 +42,7 @@ justify-content: space-around;
   font-size: 15px !important;
 }
 
-.sağ-üst > img {
+.sag-ust > img {
   margin-left: 35px;
   align-items: center;
 }
@@ -64,12 +64,12 @@ font-family: üstyazı;
 font-size: 15px;
 }
 
-.sağ-alt{
+.sag-alt{
   display: flex;
   width: 9vw;
 
 }
-.sağ-alt > img{
+.sag-alt > img{
   margin-left: 3vw;
 align-items: center;
 }
@@ -185,11 +185,11 @@ button:active {
     margin-top: 42vw;
     height: 20px;
   }
-  .üst-yazı > a {
+  .ust-yazı > a {
     margin-left: 0.1vw !important;
   }
 
-  .buton-şekil {
+  .buton-sekil {
     position: absolute;
     left: 9.5% !important;
     padding-top: 20% !important;
@@ -260,11 +260,11 @@ button:active {
     margin-top: 42vw;
     height: 25px;
   }
-  .üst-yazı > a {
+  .ust-yazı > a {
     margin-left: 3vw;
   }
 }
-.buton-şekil {
+.buton-sekil {
   position: absolute;
   left: 8.5%;
   padding-top: 20%;
@@ -341,7 +341,7 @@ button:active {
   .üst-yazı > a {
     margin-left: 7vw;
   }
-  .buton-şekil {
+  .buton-sekil {
     position: absolute;
     left: 7%;
     padding-top: 20%;
@@ -423,11 +423,11 @@ button:active {
     margin-top: 40vw !important;
     height: 35px;
   }
-  .üst-yazı > a {
+  .ust-yazı > a {
     margin-left: 10vw;
   }
 
-  .buton-şekil {
+  .buton-sekil {
     position: absolute;
     left: 55px;
     padding-top: 18%;
@@ -520,7 +520,7 @@ button:active {
     margin-left: 10vw;
   }
   
-  .buton-şekil {
+  .buton-sekil {
     position: absolute;
     left: 55px;
     padding-top: 18%;
